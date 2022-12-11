@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="cronum.exe" version="1.0.0.0" publicKeyToken="757b89bc51e623e8" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon (17).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="cronum" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="cronum.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.5.3.dll" size="330752">
+      <assemblyIdentity name="Bunifu_UI_v1.5.3" version="1.5.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>duHT7JX973Srr5A5Ldb0ql40SSKr8R5XJwcofUZ/KTA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="cronum.exe" size="136160">
+      <assemblyIdentity name="cronum" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GX1YPRCZeVsRCJ4r25yilmdy+RLhl7gV41x5qtGuL0A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Siticone.Desktop.UI.dll" size="2497984">
+      <assemblyIdentity name="Siticone.Desktop.UI" version="2.0.9.0" publicKeyToken="422D444A8A9FA6DB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ThX5J12R2cCkqCvsZYfg3puprYbnm5kdLUBiM68H9oE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Siticone.UI.dll" size="1344680">
+      <assemblyIdentity name="Siticone.UI" version="1.0.0.3" publicKeyToken="DA23B5286E22DB85" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J8VqKMveCUFXIG2hv816OVERq5e4pf9gCxHCF13O+yY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualStudioTabControl.dll" size="12800">
+      <assemblyIdentity name="VisualStudioTabControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>r2gV2BX036Ib1+qcA4axg1k2NHitwneHDPmVd9n1u6A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="cronum.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon (17).ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KheMMzXXgnKmMJSjbsrXncTJVK+fY2RjrVpRbYlJTHA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-3GLJOGP\jepit" issuerKeyHash="7daed8a910d1de5f18c97706b03a0e102afb41bc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IGews3A0EBxGbsc52hrM4jleu2mSMINatOVbTo/AlIs=</DigestValue></Reference></SignedInfo><SignatureValue>BCKbK6Cuqt+klRGEh/XMbliVwmRtDDIbko4jGbzc3LW2IkHueSSoE/b6JzFLDm4vkyKqiEFe+mBxeiyyXSHffBJCdKBE3x+0T+RHus82g0iW5ips8cHnTw8pcNnth+7AA0h9u1GrR0M2LWhUvqFKkimHwEdU49q9/hUuPY4SXQM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3CZc3WOQg7lOH3QvlDSmiSDZjM84e4X9v1v9U90390162jp1odPuDyXL6FwWz1uRJDo4mN27HwPZWTMg72sqav2M+SgjKX+Igu++zyWw3Vyf9S4Y1HWzKVm865sC0DqFxSpD8Y/daTF7G3BLImyEXN75/qS+NgrKrBjbaMqp170=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8b94c08f4e5be5b45a83309269bb5e39e2cc1ada39c76e461c103470b3b06720" Description="" Url=""><as:assemblyIdentity name="cronum.exe" version="1.0.0.0" publicKeyToken="757b89bc51e623e8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-3GLJOGP\jepit</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>t1MPYM43fIJonn72ojlHshlXp+AB03RVlQa7e/6iz1A=</DigestValue></Reference></SignedInfo><SignatureValue>GK/3dkBPeTACuYZ9sBWbIwqAhtEsA8X2j/c0j1fQ2Dgolu+W/gzhZ3HVYE9MVOsD/yR3EskP6+JenWqphkmB6KI8pqklMfBrhH0C/LZM+exPWjCAR26qFnpuGp6dYn2GnGiJC3VSPQBSoI0IxOQ11dzmeKascxUF2KfCcE7xnSk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3CZc3WOQg7lOH3QvlDSmiSDZjM84e4X9v1v9U90390162jp1odPuDyXL6FwWz1uRJDo4mN27HwPZWTMg72sqav2M+SgjKX+Igu++zyWw3Vyf9S4Y1HWzKVm865sC0DqFxSpD8Y/daTF7G3BLImyEXN75/qS+NgrKrBjbaMqp170=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQT+G5+pNY3KJKlXyls+vvETANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMARwBMAEoATwBHAFAAXABqAGUAcABpAHQwHhcNMjIxMjExMTQ0NjU0WhcNMjMxMjExMjA0NjU0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMARwBMAEoATwBHAFAAXABqAGUAcABpAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANwmXN1jkIO5Th90L5Q0pokg2YzPOHuF/b9b/VPdN/dNeto6daHT7g8ly+hcFs9bkSQ6OJjdux8D2VkzIO9rKmr9jPkoIyl/iILvvs8lsN1cn/UuGNR1sylZvOubAtA6hcUqQ/GP3WkxextwSyJshFze+f6kvjYKyqwY22jKqde9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAdTCdG/Bu0K3pDLZ3LPRaIeAX2hWDSI95RtoB6VW+Uk1+xhkss6E4GPktaT2NWpTiinvWKXCwmeSjr0dlu+N98mwAnGg2ssxK+Dsidz/LtzBjmeBLYgijI1OLGINJkEKbcsHH+jdfheruZrRuFU8EgD0MoC+VEUwy40kA1ipeMao=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
